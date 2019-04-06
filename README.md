@@ -58,3 +58,4 @@ Fuzzer works on:
 - [ ] Database (Actually working on it);
 - [ ] Active Analyzer;
 - [ ] Passive Anlyzer;
+- [ ] Graphical Interface (maybe);
