@@ -12,9 +12,19 @@ At this time no timing attack will be used to be sure to not have much false pos
 
 ## PLEASE NOTE THAT THIS TOOL IS STILL IN BETA AND IT'S PRONE TO FALSE POSITIVES. IT WILL HAVE ALSO MANY BUGS/CODE PROBLEMS
 
-### SETUP
+### TOOL WORKFLOW
+This tool will work like that (not in depth):
 
-PAPA uses a lot of dependencies that are pre-installed with python **2.7.13+** and rely on [Proxy2](https://github.com/inaz2/proxy2) for his core.
+```
+Request > Proxy
+            |  
+           Fuzzer > Change values with  >  Server >  Analyze responses   >  Get warnings  >  Profit!
+                     bytes and payloads               for abnormalities      with infos
+```
+
+
+### SETUP
+PAPA uses a lot of dependencies that are pre-installed with python **2.7.15+** and rely on [Proxy2](https://github.com/inaz2/proxy2) for his core.
 
 Additional deps:
 - Request
