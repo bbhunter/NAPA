@@ -44,7 +44,7 @@ Fuzzer parses:
 Fuzzer works on:
 - [ ] GET parameters;
 - [ ] POST parameters;
-- [ ] JSON parameters;
+- [ ] JSON parameters; (once here, I'll release the tool)
 - [ ] Cookies;
 - [ ] Custom X-* Headers;
 - [ ] XML inputs;
