@@ -55,6 +55,6 @@ Fuzzer works on:
 - [x] Proxy;
 - [x] Interceptor;
 - [ ] Fuzzer;
-- [ ] Database (Actually will work with in-memory nested dictionaries and list);
+- [ ] Database (Actually working on it);
 - [ ] Active Analyzer;
 - [ ] Passive Anlyzer;
