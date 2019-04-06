@@ -25,7 +25,7 @@ Additional deps:
 - [x] Proxy;
 - [x] Interceptor;
 - [ ] Fuzzer;
-- [ ] Database;
+- [ ] Database (Actually will work with in-memory nested dictionaries and list);
 - [ ] Active Scanner;
 - [ ] Passive Anlyzer
 
