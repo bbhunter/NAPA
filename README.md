@@ -14,27 +14,8 @@ At this time no timing attack will be used to be sure to not have much false pos
 
 PAPA uses a lot of dependencies that are pre-installed with python **2.7.13+** and rely on [Proxy2](https://github.com/inaz2/proxy2) for his core.
 
-List deps:
+Additional deps:
 
-- sys
-- os
-- socket
-- ssl
-- itertools
-- select
-- httplib
-- urlparse
-- threading
-- gzip
-- zlib
-- time
-- json
-- re
-- BaseHTTPServer
-- SocketServer
-- cStringIO
-- subprocess
-- HTMLParser
 - SQLite3
 
 ##### ROADMAP:
