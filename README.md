@@ -16,7 +16,7 @@ At this time no timing attack will be used to be sure to not have much false pos
 This tool will work like that (not in depth):
 
 ```
-Request > Proxy
+Request > Proxy > Server > Log base response
             |  
            Fuzzer > Change values with  >  Server >  Analyze responses   >  Get warnings  >  Profit!
                      bytes and payloads               for abnormalities      with infos
