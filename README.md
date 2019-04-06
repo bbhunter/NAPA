@@ -17,8 +17,28 @@ At this time no timing attack will be used to be sure to not have much false pos
 PAPA uses a lot of dependencies that are pre-installed with python **2.7.13+** and rely on [Proxy2](https://github.com/inaz2/proxy2) for his core.
 
 Additional deps:
-
+- Request
 - SQLite3
+
+## THE TOOL WILL BE RELEASED WHEN FUZZER WILL WORK ON JSON PARAMETERS;
+
+Fuzzer parses:
+- [x] GET parameters;
+- [x] POST parameters;
+- [ ] JSON parameters;
+- [ ] Cookies;
+- [ ] Custom X-* Headers;
+- [ ] XML inputs;
+- [ ] APIs;
+
+Fuzzer works on:
+- [ ] GET parameters;
+- [ ] POST parameters;
+- [ ] JSON parameters;
+- [ ] Cookies;
+- [ ] Custom X-* Headers;
+- [ ] XML inputs;
+- [ ] APIs;
 
 ##### ROADMAP:
 - [x] Core;
@@ -26,6 +46,5 @@ Additional deps:
 - [x] Interceptor;
 - [ ] Fuzzer;
 - [ ] Database (Actually will work with in-memory nested dictionaries and list);
-- [ ] Active Scanner;
-- [ ] Passive Anlyzer
-
+- [ ] Active Analyzer;
+- [ ] Passive Anlyzer;
