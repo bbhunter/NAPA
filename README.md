@@ -28,20 +28,21 @@ PAPA uses a lot of dependencies that are pre-installed with python **2.7.15+** a
 
 Additional deps:
 - Request
-- SQLite3
+- MariaDB
+- mysql.connector
 
 ## THE TOOL WILL BE RELEASED WHEN FUZZER WILL WORK ON JSON PARAMETERS;
 
 Fuzzer parses:
 - [x] GET parameters;
 - [x] POST parameters;
-- [ ] JSON parameters;
+- [X] JSON parameters;
 - [ ] Cookies;
 - [ ] Custom X-* Headers;
 - [ ] XML inputs;
 - [ ] APIs;
 
-Fuzzer works on:
+Fuzzer attacks on:
 - [ ] GET parameters;
 - [ ] POST parameters;
 - [ ] JSON parameters; (once here, I'll release the tool)
