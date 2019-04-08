@@ -29,7 +29,7 @@ PAPA uses a lot of dependencies that are pre-installed with python **2.7.15+** a
 Additional deps:
 - Request
 - MariaDB
-- mysql.connector
+- pyMysql
 
 ## THE TOOL WILL BE RELEASED WHEN FUZZER WILL WORK ON JSON PARAMETERS;
 
