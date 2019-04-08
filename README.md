@@ -56,7 +56,7 @@ Fuzzer attacks on:
 - [x] Proxy;
 - [x] Interceptor;
 - [ ] Fuzzer;
-- [ ] Database (Actually working on it);
+- [x] Database Interaction;
 - [ ] Active Analyzer;
 - [ ] Passive Anlyzer;
 - [ ] Graphical Interface (maybe);
