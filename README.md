@@ -24,6 +24,9 @@ Request > Proxy > Server > Log base response
 ### Video PoC [Just little demo, no attack]
 ![](demo.gif)
 
+### Use of the tool:
+python2.7 paa.py PORT TARGET_DOMAIN
+
 ### SETUP
 PAPA uses a lot of dependencies that are pre-installed with python **2.7.15+** and rely on [Proxy2](https://github.com/inaz2/proxy2) for his core.
 
@@ -31,6 +34,10 @@ Additional deps:
 - Request
 - MariaDB
 - pyMysql
+
+After this, open Mozilla Firefox and in preferences set the proxy address to 127.0.0.1 and the port to the one chosen.
+After that go to certificates and in Authorities just import the .crt file, check the two boxes and finish.
+Now you're ready to rock!
 
 ## THE TOOL WILL BE RELEASED WHEN FUZZER WILL WORK ON JSON PARAMETERS;
 
