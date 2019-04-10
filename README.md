@@ -21,7 +21,7 @@ Request > Proxy > Server > Log base response
            Fuzzer > Change values with  >  Server >  Analyze responses   >  Get warnings  >  Profit!
                      bytes and payloads               for abnormalities      with infos
 ```
-###Video PoC [Just little demo, no attack]
+### Video PoC [Just little demo, no attack]
 ![](demo.gif)
 
 ### SETUP
