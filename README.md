@@ -24,7 +24,7 @@ Request > Proxy > Server > Log base response
 ### Video PoC [Just little demo, no attack]
 ![](demo.gif)
 
-### Use of the tool:
+### Usage of the tool:
 python2.7 paa.py PORT TARGET_DOMAIN
 
 ### SETUP
