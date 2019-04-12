@@ -25,7 +25,7 @@ Request > Proxy > Server > Log base response
 ![](demo.gif)
 
 ### Usage of the tool:
-python2.7 paa.py PORT TARGET_DOMAIN
+python2.7 papa.py PORT TARGET_DOMAIN
 
 ### SETUP
 PAPA uses a lot of dependencies that are pre-installed with python **2.7.15+** and rely on [Proxy2](https://github.com/inaz2/proxy2) for his core.
