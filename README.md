@@ -1,4 +1,4 @@
-![img](https://img.shields.io/badge/Python-2.7-green.svg?style=for-the-badge) ![img](https://img.shields.io/badge/Version-0.1-orange.svg?style=for-the-badge) ![img](https://img.shields.io/github/last-commit/h0nus/PAPA.svg?style=for-the-badge)
+![img](https://img.shields.io/badge/Python-2.7-green.svg?style=for-the-badge) ![img](https://img.shields.io/badge/Version-0.1beta-orange.svg?style=for-the-badge) ![img](https://img.shields.io/github/last-commit/h0nus/PAPA.svg?style=for-the-badge)
 
 # PAPA
 PAPA (Python Automated Proxy Attacker)
