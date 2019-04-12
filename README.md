@@ -3,7 +3,7 @@
 # PAPA
 PAPA (Python Automated Proxy Attacker)
 
-This tool is a local proxy like Burp's Intruder.
+This tool is a local proxy like Burp's Proxy.
 
 The difference is that this one will **automatically** start to fuzzing **_all_** parameters found in GET and POST request.
 Even in JSON input.
