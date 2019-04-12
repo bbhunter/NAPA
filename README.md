@@ -21,7 +21,7 @@ Request > Proxy > Server > Log base response
            Fuzzer > Change values with  >  Server >  Analyze responses   >  Get warnings  >  Profit!
                      bytes and payloads               for abnormalities      with infos
 ```
-### Video PoC [Just little demo, no attack]
+### Video PoC [Just little demo]
 ![](demo.gif)
 
 ### Usage of the tool:
@@ -51,9 +51,9 @@ Fuzzer parses:
 - [ ] APIs;
 
 Fuzzer attacks on:
-- [ ] GET parameters;
-- [ ] POST parameters;
-- [ ] JSON parameters; (once here, I'll release the tool)
+- [x] GET parameters;
+- [x] POST parameters;
+- [ ] JSON parameters; (once here, I'll release the tool,maybe, once stable)
 - [ ] Cookies;
 - [ ] Custom X-* Headers;
 - [ ] XML inputs;
@@ -65,7 +65,7 @@ Fuzzer attacks on:
 - [x] Interceptor;
 - [ ] Fuzzer;
 - [x] Database Interaction;
-- [ ] Active Analyzer;
+- [x] Active Analyzer;
 - [ ] Passive Anlyzer;
 - [ ] Porting to python3;
 - [ ] Graphical Interface (maybe);
