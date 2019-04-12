@@ -65,7 +65,7 @@ Fuzzer attacks on:
 - [x] Interceptor;
 - [ ] Fuzzer;
 - [x] Database Interaction;
-- [x] Active Analyzer;
-- [ ] Passive Anlyzer;
+- [x] Active Error Analyzer;
+- [ ] Passive Error Anlyzer;
 - [ ] Porting to python3;
 - [ ] Graphical Interface (maybe);
