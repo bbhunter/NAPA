@@ -1,4 +1,4 @@
-![img](https://img.shields.io/badge/Python-2.7-green.svg?style=for-the-badge) ![img](https://img.shields.io/badge/Version-0.1beta-orange.svg?style=for-the-badge) ![img](https://img.shields.io/github/last-commit/h0nus/PAPA.svg?style=for-the-badge)
+![img](https://img.shields.io/badge/Python-3.7-green.svg?style=for-the-badge) ![img](https://img.shields.io/badge/Version-0.1beta-orange.svg?style=for-the-badge) ![img](https://img.shields.io/github/last-commit/h0nus/PAPA.svg?style=for-the-badge)
 
 # PAPA
 PAPA (Python Automated Proxy Attacker)
@@ -25,10 +25,10 @@ Request > Proxy > Server > Log base response
 ![](demo.gif)
 
 ### Usage of the tool:
-python2.7 papa.py PORT TARGET_DOMAIN
+python3 papa.py PORT TARGET_DOMAIN
 
 ### SETUP
-PAPA uses a lot of dependencies that are pre-installed with python **2.7.15+** and rely on [Proxy2](https://github.com/inaz2/proxy2) for his core.
+PAPA uses a lot of dependencies that are pre-installed with python **3.6+**
 
 Additional deps:
 - Request
