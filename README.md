@@ -1,7 +1,7 @@
 ![img](https://img.shields.io/badge/Python-3.7-green.svg?style=for-the-badge) ![img](https://img.shields.io/badge/Version-0.1beta-orange.svg?style=for-the-badge) ![img](https://img.shields.io/github/last-commit/h0nus/PAPA.svg?style=for-the-badge)
 
-# PAPA
-PAPA (Python Automated Proxy Attacker)
+# NAPA
+NAPA (NodeJS Automated Proxy Attacker)
 
 This tool is a local proxy like Burp's Proxy.
 
@@ -25,15 +25,11 @@ Request > Proxy > Server > Log base response
 ![](demo.gif)
 
 ### Usage of the tool:
-python3 papa.py PORT TARGET_DOMAIN
+node napa.js PORT TARGET_DOMAIN
 
 ### SETUP
-PAPA uses a lot of dependencies that are pre-installed with python **3.6+**
-
-Additional deps:
-- Request
-- MariaDB
-- pyMysql
+NAPA uses a lot of dependencies that are pre-installed with NodeJS and:
+- node-http-mitm-proxy
 
 After this, open Mozilla Firefox and in preferences set the proxy address to 127.0.0.1 and the port to the one chosen.
 After that go to certificates and in Authorities just import the .crt file, check the two boxes and finish.
@@ -42,17 +38,17 @@ Now you're ready to rock!
 ## THE TOOL WILL BE RELEASED WHEN FUZZER WILL WORK ON JSON PARAMETERS;
 
 Fuzzer parses:
-- [x] GET parameters;
-- [x] POST parameters;
-- [X] JSON parameters;
+- [ ] GET parameters;
+- [ ] POST parameters;
+- [ ] JSON parameters;
 - [ ] Cookies;
 - [ ] Custom X-* Headers;
 - [ ] XML inputs;
 - [ ] APIs;
 
 Fuzzer attacks on:
-- [x] GET parameters;
-- [x] POST parameters;
+- [ ] GET parameters;
+- [ ] POST parameters;
 - [ ] JSON parameters; (once here, I'll release the tool,maybe, once stable)
 - [ ] Cookies;
 - [ ] Custom X-* Headers;
@@ -60,12 +56,12 @@ Fuzzer attacks on:
 - [ ] APIs;
 
 ##### ROADMAP:
-- [x] Core;
-- [x] Proxy;
-- [x] Interceptor;
+- [ ] Core;
+- [ ] Proxy;
+- [ ] Interceptor;
 - [ ] Fuzzer;
-- [x] Database Interaction;
-- [x] Active Error Analyzer;
-- [x] Passive Error Anlyzer;
+- [ ] Database Interaction;
+- [ ] Active Error Analyzer;
+- [ ] Passive Error Anlyzer;
 - [ ] Porting to python3;
 - [ ] Graphical Interface (maybe);
