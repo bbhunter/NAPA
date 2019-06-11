@@ -22,7 +22,7 @@ Request > Proxy > Server > Log base response
                      bytes and payloads               for abnormalities      with infos
 ```
 ### Video PoC [Just little demo]
-![](demo.gif)
+##To be done
 
 ### Usage of the tool:
 node napa.js PORT TARGET_DOMAIN
